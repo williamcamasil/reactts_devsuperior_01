@@ -28,3 +28,18 @@ $body-color: #263238;
 
 --
 
+https://fonts.google.com/specimen/Open+Sans?query=open
+
+--
+
+https://getbootstrap.com/docs/5.0/layout/breakpoints/
+https://getbootstrap.com/docs/5.0/layout/containers/
+https://getbootstrap.com/docs/5.0/layout/grid/
+
+--
+
+
+
+
+
+
