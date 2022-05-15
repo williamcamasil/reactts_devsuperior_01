@@ -38,6 +38,11 @@ https://getbootstrap.com/docs/5.0/layout/grid/
 
 --
 
+https://docs.google.com/document/d/1G89Au4641FSheyyFHAJxYmTzdxRDs80PSv_GqZENR9s/edit
+https://www.figma.com/file/H1SC2bo3Zaycm3mJxkkMC4/bds-desafio-layout?node-id=0%3A1
+
+--
+
 
 
 

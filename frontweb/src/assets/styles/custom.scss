@@ -1,8 +1,13 @@
 $theme-colors: (
     'primary': #407bff,
+    'button-color': #00285F,
+    'panel-color': #EDEDED,
 );
 
 $body-bg: #e5e5e5;
 $body-color: #263238;
+$card-color: #EDEDED;
+$nav-bar-color: #F78B00;
+$text-color: #585858;
 
 @import '~bootstrap/scss/bootstrap.scss';

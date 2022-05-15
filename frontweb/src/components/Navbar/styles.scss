@@ -1,0 +1,50 @@
+@import '../../assets/styles/custom.scss';
+
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+}
+
+.main-nav {
+    padding: 0px 10px;
+    min-height: 70px;
+    background-color: $nav-bar-color;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+    color: theme-color("button-color");
+}
+
+.navbar-toggler, .navbar-toggler:hover {
+    border: 0px !important;
+    color: #F78B00 !important;
+    // background-image: url("../../assets/images/menu/hamburguer.svg");
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    justify-content: end;
+}
+
+.main-menu a {
+    color: theme-color("button-color");
+}
+
+.main-menu a:hover, a.active {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .main-menu a {
+        margin-left: 48px;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1280px) {
+    
+}
