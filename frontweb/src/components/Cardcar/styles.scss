@@ -1,0 +1,41 @@
+@import '../../assets/styles/custom.scss';
+
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+}
+
+.card {
+    width: 258px;
+    // min-width: 258px;
+    // max-width: 306px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin: 15px 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+
+    img {
+        width: 220px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin-top: 14px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #585858;
+        display: flex;
+        align-items: center;
+    }
+
+    //TODO: passar estilização por parametro
+    button {
+        width: 100%;
+        margin-top: 22px;
+        border-radius: 5px;
+    }
+}

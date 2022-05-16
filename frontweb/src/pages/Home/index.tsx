@@ -1,6 +1,7 @@
 import Navbar from '../../components/Navbar';
 import YellowCar from '../../assets/cars/yellowcar.svg';
 import './styles.scss';
+import Button from '../../components/Button';
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className="catalog-button">
-        <button>VER CATÁLOGO</button>
+        <Button text="VER CATÁLOGO" />
         <span>Comece agora a navegar</span>
       </div>
     </>
