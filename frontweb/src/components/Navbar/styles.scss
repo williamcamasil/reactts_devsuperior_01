@@ -8,6 +8,23 @@
     padding: 0px 10px;
     min-height: 70px;
     background-color: $nav-bar-color;
+
+    a {
+        text-decoration: none;
+        color: theme-color("button-color");
+    }
+
+    .main-menu {
+        display: flex;
+        font-size: 18px;
+        width: 100%;
+        justify-content: flex-end;
+        
+        .main-menu a:hover, a.active {
+            color: theme-color("button-color");
+            font-weight: 700;
+        }
+    }
 }
 
 .nav-logo-text, .nav-logo-text:hover {
@@ -16,23 +33,8 @@
 
 .navbar-toggler, .navbar-toggler:hover {
     border: 0px !important;
-    color: #F78B00 !important;
+    color: $nav-bar-color !important;
     // background-image: url("../../assets/images/menu/hamburguer.svg");
-}
-
-.main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-.main-menu a {
-    color: theme-color("button-color");
-}
-
-.main-menu a:hover, a.active {
-    font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {

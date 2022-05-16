@@ -1,13 +1,14 @@
 import './styles.scss';
 
-interface Description {
+interface DescriptionAction {
   text: string;
+  onClickButton?: () => void;
 }
 
-const Button = (props: Description) => {
+const Button = (props: DescriptionAction) => {
   return (
     <>
-      <button>{props.text}</button>
+      <button onClick={props.onClickButton}>{props.text}</button>
     </>
   );
 };
