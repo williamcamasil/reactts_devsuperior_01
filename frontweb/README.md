@@ -43,8 +43,7 @@ https://www.figma.com/file/H1SC2bo3Zaycm3mJxkkMC4/bds-desafio-layout?node-id=0%3
 
 --
 
-
-
+yarn add react-router-dom@5.2.0 @types/react-router-dom@5.1.7
 
 
 
