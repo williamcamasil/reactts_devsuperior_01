@@ -4,7 +4,7 @@ import Button from '../../components/Button';
 
 const Catalog = () => {
   return (
-    <>
+    <div className="container-catolog">
       <div className="search">
         <input type="text" placeholder="Digite sua busca" />
         <Button text="BUSCAR" />
@@ -16,7 +16,7 @@ const Catalog = () => {
         <Cardcar />
         <Cardcar />
       </div>
-    </>
+    </div>
   );
 };
 

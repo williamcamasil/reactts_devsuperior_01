@@ -11,7 +11,7 @@ const Home = () => {
       <div className="main-panel">
         <img src={YellowCar} alt="Yellow Car" />
         <div className="main-content">
-          <h1>O Carro perfeito para você</h1>
+          <h1>O carro perfeito para você</h1>
           <div className="content">
             <span>
               Conheça nossos carros e dê mais um passo na realização do seu

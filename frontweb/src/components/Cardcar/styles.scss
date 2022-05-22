@@ -10,7 +10,7 @@
     // max-width: 306px;
     background: $card-color;
     border-radius: 10px;
-    margin: 15px 10px;
+    margin: 15px 15px;
     border: none;
     display: flex;
     align-items: center;
@@ -32,10 +32,40 @@
         align-items: center;
     }
 
-    //TODO: passar estilização por parametro
     button {
         width: 100%;
         margin-top: 22px;
         border-radius: 5px;
     }
+}
+
+@media screen and (min-width: 320px) {
+    .card {
+        width: 300px;
+        margin: 15px 10px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        width: 258px;
+        margin: 15px 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 349px;
+        margin: 15px 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        width: 306px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
 }

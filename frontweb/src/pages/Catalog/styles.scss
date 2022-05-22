@@ -4,34 +4,104 @@
     @return map-get($theme-colors, $key);
 }
 
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 20px;
-    height: 123px;
-    background: $card-color;
-    border-radius: 10px;
-    padding: 0px 20px;
+.container-catolog {
+    margin: 0px 5px;
+    padding: 0px;
 
-    input {
-        border-radius: 5px 0px 0px 5px;
-        outline: none;
-        border: none;
-        flex: 1;
-        height: 40px;
-        padding-left: 13px;
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 15px;
+        height: 123px;
+        background: $card-color;
+        border-radius: 10px;
+        padding: 0px 20px;
+        max-width: 1000px;
+    
+        input {
+            border-radius: 5px 0px 0px 5px;
+            outline: none;
+            border: none;
+            flex: 1;
+            height: 40px;
+            padding-left: 13px;
+        }
+    
+        button {
+            width: 174px;
+            padding: 8px;
+            border-radius: 0px 5px 5px 0px;
+        }
     }
-
-    button {
-        width: 174px;
-        padding: 8px;
-        border-radius: 0px 5px 5px 0px;
+    
+    .cards {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+@media screen and (min-width: 320px) {
+    .container-catolog {        
+        .search {
+            margin: 30px 10px;
+            padding: 0px 34px;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container-catolog {
+        margin: 0px 5px;
+        .search {
+            margin: 30px 15px;
+            padding: 0px 20px;
+        }
+        
+        .cards {
+            .card {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-catolog {
+        margin: 0px 5px;
+        .search {
+            margin: 30px 15px;
+            padding: 0px 34px;
+        }
+        
+        .cards {
+            .card {
+                margin: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-catolog {
+        margin: auto;
+        .search {
+            width: 952px;
+            margin: 30px auto;
+            padding: 0px 97px;
+        }
+        
+        .cards {
+            .card {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
 }
