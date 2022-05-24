@@ -9,9 +9,17 @@
     min-height: 70px;
     background-color: $nav-bar-color;
 
+    h4 {
+        margin: 0px;
+    }
+
     a {
         text-decoration: none;
         color: theme-color("button-color");
+    }
+
+    button .navbar-toggler-icon {
+        background-image: url('https://www.seekpng.com/png/full/376-3766322_film-forum-menu-icon-dark-blue.png') !important;
     }
 
     .main-menu {
@@ -19,10 +27,19 @@
         font-size: 18px;
         width: 100%;
         justify-content: flex-end;
+        position: absolute;
+        background-color: $nav-bar-color;
+        padding-left: 22px;
+        padding-bottom: 10px;
+        margin-left: -22px;
         
         .main-menu a:hover, a.active {
             color: theme-color("button-color");
             font-weight: 700;
+        }
+
+        li {
+            padding-bottom: 8px;
         }
     }
 }
@@ -34,17 +51,31 @@
 .navbar-toggler, .navbar-toggler:hover {
     border: 0px !important;
     color: $nav-bar-color !important;
-    // background-image: url("../../assets/images/menu/hamburguer.svg");
 }
 
 @media screen and (min-width: 768px) {
-    .main-menu a {
-        margin-left: 48px;
-    }  
+    .main-nav {
+        .main-menu {
+            position: unset;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            
+            a {
+                margin-left: 48px;
+            }
+
+            li {
+                padding-bottom: 0px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
-    
+    .container-fluid {
+        max-width: 975px;
+    }
 }
 
 @media screen and (min-width: 1280px) {

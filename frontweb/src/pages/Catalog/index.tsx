@@ -15,6 +15,8 @@ const Catalog = () => {
         <Cardcar />
         <Cardcar />
         <Cardcar />
+        <Cardcar />
+        <Cardcar />
       </div>
     </div>
   );
