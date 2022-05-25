@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
-import Catalog from './pages/Catalog';
+import Before from './pages/Before';
+import After from './pages/After';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -10,7 +11,8 @@ const RoutesPages = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cars" element={<Catalog />} />
+        <Route path="/before" element={<Before />} />
+        <Route path="/after" element={<After />} />
       </Routes>
     </Router>
   );

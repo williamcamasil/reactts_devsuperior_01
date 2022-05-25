@@ -4,8 +4,17 @@
     @return map-get($theme-colors, $key);
 }
 
-.main-nav {
-    
+.container-catolog {
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 576px) {
+
 }
 
 @media screen and (min-width: 768px) {
@@ -17,5 +26,5 @@
 }
 
 @media screen and (min-width: 1280px) {
-    
+
 }
